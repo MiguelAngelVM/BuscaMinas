@@ -1,0 +1,341 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.buscaminas.Cuatro$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/Minas"
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gridLayout1"
+        android:layout_below="@+id/Movimientos"
+        android:layout_marginLeft="35dp"
+        android:text="Minas: 0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <GridLayout
+        android:id="@+id/gridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="86dp" >
+
+        <Button
+            android:id="@+id/a1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left|bottom"
+            android:layout_row="0"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonA1" />
+
+        <Button
+            android:id="@+id/a2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="3"
+            android:layout_gravity="right"
+            android:layout_row="0"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonA2" />
+
+        <Button
+            android:id="@+id/a4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="7"
+            android:layout_gravity="right"
+            android:layout_row="0"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonA4" />
+
+        <Button
+            android:id="@+id/b1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left|bottom"
+            android:layout_row="2"
+           android:background="@drawable/redondo"
+            android:onClick="ButtonB1" />
+
+        <Button
+            android:id="@+id/b2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="3"
+            android:layout_gravity="right|bottom"
+            android:layout_row="2"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonB2" />
+
+        <Button
+            android:id="@+id/b3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="5"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left"
+            android:layout_row="2"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonB3" />
+
+        <Button
+            android:id="@+id/b4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="7"
+            android:layout_gravity="right|bottom"
+            android:layout_row="2"
+          android:background="@drawable/redondo"
+            android:onClick="ButtonB4" />
+
+        <Button
+            android:id="@+id/c1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left"
+            android:layout_row="4"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonC1" />
+
+        <Button
+            android:id="@+id/c2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="3"
+            android:layout_columnSpan="3"
+            android:layout_gravity="left"
+            android:layout_row="4"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonC2" />
+
+        <Button
+            android:id="@+id/c3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="5"
+            android:layout_columnSpan="3"
+            android:layout_gravity="left"
+            android:layout_row="4"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonC3" />
+
+        <Button
+            android:id="@+id/c4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="7"
+            android:layout_gravity="left"
+            android:layout_row="4"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonC4" />
+
+        <Button
+            android:id="@+id/d1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="1"
+            android:layout_columnSpan="3"
+            android:layout_gravity="left|bottom"
+            android:layout_row="5"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonD1" />
+
+        <Button
+            android:id="@+id/d2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="3"
+            android:layout_gravity="right|bottom"
+            android:layout_row="5"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonD2" />
+
+        <Button
+            android:id="@+id/d3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="5"
+            android:layout_columnSpan="3"
+            android:layout_gravity="left|bottom"
+            android:layout_row="5"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonD3" />
+
+        <Button
+            android:id="@+id/d4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="7"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left|bottom"
+            android:layout_row="5"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonD4" />
+
+        <Space
+            android:layout_width="44dp"
+            android:layout_height="1dp"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <Button
+            android:id="@+id/a3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="5"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left"
+            android:layout_row="0"
+            android:background="@drawable/redondo"
+            android:onClick="ButtonA3" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_row="3" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_row="2" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_row="4" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="63dp"
+            android:layout_column="0"
+            android:layout_row="5" />
+
+        <Space
+            android:layout_width="25dp"
+            android:layout_height="1dp"
+            android:layout_column="1"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="32dp"
+            android:layout_height="33dp"
+            android:layout_column="2"
+            android:layout_row="2" />
+
+        <Space
+            android:layout_width="21dp"
+            android:layout_height="1dp"
+            android:layout_column="5"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="33dp"
+            android:layout_height="1dp"
+            android:layout_column="6"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="27dp"
+            android:layout_height="1dp"
+            android:layout_column="7"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="102dp"
+            android:layout_height="1dp"
+            android:layout_column="8"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="1dp"
+            android:layout_column="4"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_row="1" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/Movimientos"
+                android:textColor="#fff"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Minas"
+        android:layout_below="@+id/gridLayout1"
+        android:text="Movimientos: 0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+                android:textColor="#fff"
+        
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Minas"
+        android:layout_below="@+id/Minas"
+        android:text="Victorias: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/victorias"
+                android:textColor="#fff"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+                android:textColor="#fff"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Movimientos"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="44dp"
+        android:text="Buscam Minas"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/bBorrar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/victorias"
+        android:background="@drawable/redondo"
+        android:onClick="borrarTodo"
+        android:text="Borrar historial"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/bNuevoJuego"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bBorrar"
+        android:layout_alignBottom="@+id/bBorrar"
+        android:layout_marginLeft="11dp"
+        android:layout_toRightOf="@+id/bBorrar"
+        android:background="@drawable/redondo"
+        android:onClick="nuevoJuego"
+        android:text="Nuevo Juego"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+</RelativeLayout><!-- From: file:/home/asdf/Descargas/BuscaMinas/app/src/main/res/layout/activity_cuatro.xml -->
